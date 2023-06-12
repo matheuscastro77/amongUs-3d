@@ -14,9 +14,8 @@ const ARComponent = () => {
       <Canvas>
         <XR>
           <Controllers />
-          <Hands />
-          <mesh>
-            <boxGeometry />
+                    <mesh>
+            <boxGeometry scale={[0.5, 0.5, 0.5]}/>
             <meshBasicMaterial color="blue" />
           </mesh>
         </XR>
