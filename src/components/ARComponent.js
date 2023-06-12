@@ -16,9 +16,9 @@ const ARComponent = () => {
           position={[5, 5, 5]} />
           <XR referenceSpace="local-floor">
             <OrbitControls />
-
+            <Suspense fallback={null} scale={[4, 4, 4]}>
             <Amongus />
-
+          </Suspense>
           </XR>
         </Canvas>
       </>
