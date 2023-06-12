@@ -11,12 +11,12 @@ const ARComponent = () => {
     <>
       <>
         <ARButton />
-        <Canvas camera={{position: [0.1, 0.1, 0.1]}}>
+        <Canvas >
         <directionalLight color={"#ffffff"}
           position={[5, 5, 5]} />
           <XR referenceSpace="local">
 
-            <Suspense fallback={null} scale={[4, 4, 4]}>
+            <Suspense fallback={null} >
             <Amongus />
           </Suspense>
           <Controllers />
