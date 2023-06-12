@@ -13,7 +13,6 @@ const ARComponent = () => {
       <ARButton />
       <Canvas>
         <XR>
-          <Controllers />
                     <mesh position={[0, 2, -3]}> 
             <boxGeometry scale={[0.5, 0.5, 0.5]}/>
             <meshBasicMaterial color="blue" />
