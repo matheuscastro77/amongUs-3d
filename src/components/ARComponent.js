@@ -14,7 +14,7 @@ const ARComponent = () => {
       <Canvas>
         <XR>
           <Controllers />
-                    <mesh>
+                    <mesh position={[0, 2, 3]}> 
             <boxGeometry scale={[0.5, 0.5, 0.5]}/>
             <meshBasicMaterial color="blue" />
           </mesh>
