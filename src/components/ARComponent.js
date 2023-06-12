@@ -14,7 +14,7 @@ const ARComponent = () => {
         <Canvas >
         <directionalLight color={"#ffffff"}
           position={[5, 5, 5]} />
-          <XR referenceSpace="local-floor">
+          <XR referenceSpace="local">
 
             <Suspense fallback={null} >
             <Amongus />
