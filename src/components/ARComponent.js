@@ -2,7 +2,8 @@ import React, { Suspense } from 'react'
 import { ARButton, Controllers, Hands, XR, XRController } from '@react-three/xr'
 import { Canvas } from '@react-three/fiber'
 import { Amongus } from './Model'
-import { OrbitControls } from '@react-three/drei'
+import { Box, OrbitControls } from '@react-three/drei'
+import * as THREE from 'three'
 
 
 const ARComponent = () => {
