@@ -9,7 +9,7 @@ import * as THREE from 'three'
 const ARComponent = () => {
   return (
     <>
-       <ARButton />
+       {/* <ARButton />
       <Canvas camera={{ position: [0, 2, 0] }}>
         <XR referenceSpace="local-floor">
           <color attach="background" args={["#111"]} />
@@ -23,18 +23,18 @@ const ARComponent = () => {
             <meshPhongMaterial color="#440066" />
           </Box>
         </XR>
-      </Canvas>
-      {/* <ARButton />
+      </Canvas> */}
+      <ARButton />
       <Canvas vr="true" camera={{position: [0.1, 0.1, 0.1] }}>
         <directionalLight color={"#ffffff"}
           position={[5, 5, 5]} />
-        <XR>
-          <XRController />
+        <XR referenceSpace="local-floor">
+        <OrbitControls />
           <Suspense fallback={null}>
             <Amongus />
           </Suspense>
         </XR>
-      </Canvas> */}
+      </Canvas>
     </>
   )
 }
