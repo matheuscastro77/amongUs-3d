@@ -15,12 +15,9 @@ const ARComponent = () => {
         <directionalLight color={"#ffffff"}
           position={[5, 5, 5]} />
         <XR>
-        <Hands />
-          <Controllers />
           <Suspense fallback={null}>
             <Amongus />
           </Suspense>
-          <OrbitControls target={[0, 0, -0.3]} />
         </XR>
       </Canvas>
     </div>
