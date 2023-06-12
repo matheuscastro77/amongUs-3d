@@ -11,7 +11,7 @@ const ARComponent = () => {
       className='container3D'
       style={{ width: '100%', height: '100vh' }}>
       <ARButton />
-      <Canvas camera={{position: [0.1, 0.1, 0.1] }}>
+      <Canvas vr="true" camera={{position: [0.1, 0.1, 0.1] }}>
         <directionalLight color={"#ffffff"}
           position={[5, 5, 5]} />
         <XR>
