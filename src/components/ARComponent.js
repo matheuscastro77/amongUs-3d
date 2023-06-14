@@ -12,6 +12,7 @@ const ARComponent = () => {
         <Canvas camera={{ position: [0.05, 0.05, 0.05]}}       style={{ height:"100vh", width: '100%'}}>
         <directionalLight color={"#ffffff"}
           position={[5, 5, 5]} />
+          <ambientLight intensity={0.5}/>
           <XR referenceSpace="local">
           <Suspense fallback={null} >
             <Amongus />
