@@ -8,8 +8,7 @@ If you are not an IOS product user, just run the project as normal. </br>
 Why this happening ? </br>
 This happening because the IOS do not support the WebXR.
 
-https://github.com/matheuscastro77/amongUs-3d/assets/94663972/52e76eac-3d6c-450f-8177-f17c1e1334c8
-
+https://github.com/matheuscastro77/amongUs-3d/assets/94663972/4de3f416-022c-43c8-8bb8-7b110b6ce8d5
 
 
 ## 1 - Clone the repository
