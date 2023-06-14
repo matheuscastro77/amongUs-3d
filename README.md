@@ -1,6 +1,6 @@
 # amongUs-3d AR
 
-## [Link](https://pokedex-ebon-iota.vercel.app/)
+## [Link](https://among-us-3d.vercel.app/)
 
 ## Must run on mobile
 
