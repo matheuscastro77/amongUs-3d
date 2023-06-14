@@ -2,6 +2,8 @@
 
 ## [Link](https://pokedex-ebon-iota.vercel.app/)
 
+## Must run on mobile
+
 ## How to execute
 This project uses WebXR, so if you are an IOS user you must install "WebXR Viewer" in your device, this app is available on apple story and it was developed by Mozilla, in this app you can just copy the link and run the experiment. </br>
 If you are not an IOS product user, just run the project as normal. </br>
