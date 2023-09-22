@@ -3,6 +3,7 @@
 ## [Link](https://among-us-3d.vercel.app/)
 
 ## Must run on mobile
+## *Iphone users need an app called XRViewer*
 
 ## How to execute
 This project uses WebXR, so if you are an IOS user you must install "WebXR Viewer" on your device, this app is available on apple store and was developed by Mozilla, in this app you can just copy the link, and run the experiment. </br>
